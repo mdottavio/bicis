@@ -1,15 +1,1 @@
-[
-  {
-    "EstacionId": "515",
-    "EstacionNombre": "Emilio Mitre",
-    "BicicletaDisponibles": "1",
-    "EstacionDisponible": "SI",
-    "Latitud": "-34.588546",
-    "Longitud": "-58.397712",
-    "Numero": "2399",
-    "Lugar": "Pacheco de Melo y Larrea",
-    "Piso": "",
-    "AnclajesTotales": "50",
-    "AnclajesDisponibles": "49"
-  }
-]
+[]
