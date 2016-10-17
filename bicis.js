@@ -10,7 +10,7 @@ let colors = require(__dirname + '/src/colors-wrapper.js');
 let program = require('commander');
 
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .option('-l, --listar', 'Listar estaciones con 🚴🏻 disponibles')
   .option('-b, --buscar [nombre de estacion]', 'Buscar estación por nombre')
   .option('-a, --agregar [ID de estación]', 'Agregar la estación a tu lista de favoritas')
