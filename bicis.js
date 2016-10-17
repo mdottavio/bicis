@@ -6,11 +6,12 @@ let apitHdl = require(__dirname + '/src/api.js');
 let showtHdl = require(__dirname + '/src/display.js');
 let favoritesHdl = require(__dirname + '/src/favorites.js');
 let colors = require(__dirname + '/src/colors-wrapper.js');
+var pjson = require('./package.json');
 
 let program = require('commander');
 
 program
-  .version('0.1.1')
+  .version(pjson.version)
   .option('-l, --listar', 'Listar estaciones con 🚴🏻 disponibles')
   .option('-b, --buscar [nombre de estacion]', 'Buscar estación por nombre')
   .option('-a, --agregar [ID de estación]', 'Agregar la estación a tu lista de favoritas')

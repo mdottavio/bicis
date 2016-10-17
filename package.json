@@ -1,6 +1,6 @@
 {
   "name": "bicis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Estado de la estaciones de Ecobici de la ciudad de Buenos Aires - Argentina",
   "main": "bicis.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "dottavio@gmail.com",
   "license": "MIT",
   "bin": {
-    "bicis ": "./bicis.js"
+    "bicis": "./bicis.js"
   },
   "dependencies": {
     "cli-table": "^0.3.1",
