@@ -1,3 +1,5 @@
+#!/usr/bin/env node --harmony
+
 'use strict';
 
 let apitHdl = require(__dirname + '/src/api.js');
