@@ -40,7 +40,7 @@ let apiHandler = () => {
 
         let stations = _normalize(result['soap:Envelope']['soap:Body'][0]['BicicletasWSResponse'][0]['BicicletasWSResult'][0]['Bicicletas'][0]['Estaciones'][0]['Estacion']);
         if (limit > 0) {
-          stations = stations.slice(0, limit + 1);
+          stations = stations.slice(0, limit);
         }
 
         resolve(stations);
